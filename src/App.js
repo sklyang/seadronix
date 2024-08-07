@@ -12,7 +12,7 @@ function App() {
       return counts[n] = [fib(n-1)[0] + fib(n-2)[0],fib(n-1)[1] + fib(n-2)[1]]
     }
     return fib(n)
-}
+  }
   const handleInputChange =(event) => {
     let data = event.target.value.split('\n')
     let T = Number(data[0])
